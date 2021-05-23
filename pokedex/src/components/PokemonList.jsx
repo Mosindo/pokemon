@@ -7,7 +7,7 @@ const PokemonList = (props) => {
   const [page, setPage] = useState(0);
 
   useEffect(() => {
-    fetch(`https://pokeapi.co/api/v2/pokemon?limit=100&offset=${page}`)
+    fetch(`https://pokeapi.co/api/v2/pokemon?limit=18&offset=${page}`)
       .then((response) => {
         return response.json();
       })

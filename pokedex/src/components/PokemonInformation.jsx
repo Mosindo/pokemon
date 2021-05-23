@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import SelectSearch from 'react-select-search';
+import "./images/pokemon.png";
 
 const PokemonInformation = (props) => {
   const [pokemon, setPokemon] = useState();
